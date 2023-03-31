@@ -19,5 +19,5 @@ This is NSIDC's primary location for sharing and fostering community interaction
 
 ## FAQ
 
-* _Where do `mapx` Map Projection Parameter (.mpp) and Grid Parameter Definition (.gpd) files live?_ **[mapxmaps](https://github.com/nsidc/mapxmaps)
+* _Where do `mapx` Map Projection Parameter (.mpp) and Grid Parameter Definition (.gpd) files live?_ **[mapxmaps](https://github.com/nsidc/mapxmaps)**
 * _What is NISDC doing for the [Federal Year of Open Science](https://open.science.gov/)?_ **TODO: Add a link to an informational repo/GHPages site/nsidc.org announcement**
