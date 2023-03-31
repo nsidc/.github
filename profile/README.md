@@ -15,6 +15,10 @@ This is NSIDC's primary location for sharing and fostering community interaction
     * [Greenland/Antarctica Today](https://nsidc.org/greenland-today/)
     * [Snow Today](https://nsidc.org/snow-today)
     * [NSIDC News](https://nsidc.org/news-analyses/news-stories)
+* Tutorials
+    * [NSIDC Data Tutorials](https://github.com/nsidc/NSIDC-Data-Tutorials)
+    * [NSIDC Data Access Notebook](https://github.com/nsidc/NSIDC-Data-Access-Notebook)
+    * [SMAP Python Notebooks](https://github.com/nsidc/smap_python_notebooks)
 
 
 ## FAQ
