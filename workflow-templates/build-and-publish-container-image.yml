@@ -13,5 +13,5 @@ on:
 jobs:
 
   build-and-release-image:
-    uses: "nsidc/.github/workflows/build-and-publish-container-image.yml@main"
+    uses: "nsidc/.github/.github/workflows/build-and-publish-container-image.yml@main"
     secrets: "inherit"
