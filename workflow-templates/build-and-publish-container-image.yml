@@ -1,9 +1,11 @@
 name: "Build and publish container image"
+# When a push to the default branch occurs, build and release a "latest" image
+# When a tag `vX.Y.Z` push occurs, build and release an image with that tag
 
 on:
   push:
     branches:
-      - "$defaultbranch"
+      - "$default-branch"
     tags:
       - "v[0-9]+.[0-9]+.[0-9]+*"
 
