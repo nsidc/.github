@@ -1,0 +1,12 @@
+{
+    "name": "NSIDC workflow: Build and publish container image",
+    "description": "Build a container image and publish it to standard set of container registries.",
+    "iconName": "container",
+    "categories": [
+        "Docker"
+    ],
+    "filePatterns": [
+        "^Dockerfile"
+    ]
+}
+
