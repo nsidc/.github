@@ -1,0 +1,15 @@
+name: "Build and publish container image"
+
+on:
+  push:
+    branches:
+      - "$defaultbranch"
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+*"
+
+
+jobs:
+
+  build-and-release-image:
+    uses: "nsidc/.github/workflows/build-and-publish-container-image.yml@main"
+    secrets: "inherit"
