@@ -25,9 +25,9 @@ jobs:
       # GitHub Actions expressions don't have great conditional support, so
       # writing a ternary expression looks a lot like bash. In Python, this
       # would read as:
-      #     github.ref_name if github.event.ref_type == 'tag' else 'latest'
+      #     github.ref_name if github.ref_type == 'tag' else 'latest'
       #     https://docs.github.com/en/actions/learn-github-actions/expressions
-      IMAGE_TAG: "${{ github.event.ref_type == 'tag' && github.ref_name || 'latest' }}"
+      IMAGE_TAG: "${{ github.ref_type == 'tag' && github.ref_name || 'latest' }}"
     steps:
       - name: "Check out repository"
         uses: "actions/checkout@v3"
