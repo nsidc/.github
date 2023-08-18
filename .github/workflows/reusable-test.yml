@@ -1,0 +1,23 @@
+name: "Test GitHub context in re-usable workflow"
+
+on:
+  # This is a re-usable workflow!
+  # https://docs.github.com/en/actions/using-workflows/reusing-workflows#creating-a-reusable-workflow
+  workflow_call:
+    inputs:
+    secrets:
+
+
+jobs:
+
+  test:
+    name: "Test context state"
+    runs-on: "ubuntu-latest"
+    env:
+      GITHUB_STATE_VAR: "${{ toJSON(github) }}"
+    steps:
+      - name: "Print envvar"
+        run: "echo $GITHUB_STATE_VAR"
+
+      - name: "Print event"
+        run: "echo ${{ toJSON(github.event) }}"
