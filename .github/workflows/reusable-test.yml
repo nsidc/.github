@@ -4,8 +4,6 @@ on:
   # This is a re-usable workflow!
   # https://docs.github.com/en/actions/using-workflows/reusing-workflows#creating-a-reusable-workflow
   workflow_call:
-    inputs:
-    secrets:
 
 
 jobs:
