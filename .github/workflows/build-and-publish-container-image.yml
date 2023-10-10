@@ -13,6 +13,7 @@ on:
         default: "Dockerfile"
       docker-image-name:
         type: "string"
+        # TODO: Calculate NSIDC org name from variable?
         default: "nsidc/${{ github.event.repository.name }}"
     secrets:
       DOCKER_USER:
