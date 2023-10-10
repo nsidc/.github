@@ -11,6 +11,10 @@ on:
       docker-file-name:
         type: "string"
         default: "Dockerfile"
+      docker-image-name:
+        type: "string"
+        # TODO: Calculate NSIDC org name from variable?
+        default: "nsidc/${{ github.event.repository.name }}"
     secrets:
       DOCKER_USER:
         required: true
@@ -24,7 +28,7 @@ jobs:
     name: "Build and release container image"
     runs-on: "ubuntu-latest"
     env:
-      IMAGE_NAME: "nsidc/${{ github.event.repository.name }}"
+      IMAGE_NAME: "${{ inputs.docker-image-name }}"
       # GitHub Actions expressions don't have great conditional support, so
       # writing a ternary expression looks a lot like bash. In Python, this
       # would read as:
