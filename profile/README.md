@@ -23,9 +23,8 @@ our software and other products.
         * [A Guide to NSIDC's Polar Stereographic Projection](https://nsidc.org/data/user-resources/help-center/guide-nsidcs-polar-stereographic-projection)
         * [A Guide to EASE Grids](https://nsidc.org/data/user-resources/help-center/guide-ease-grids)
     * Working with data
-        * [NSIDC Data Tutorials](https://github.com/nsidc/NSIDC-Data-Tutorials)
-        * [NSIDC Data Access Notebook](https://github.com/nsidc/NSIDC-Data-Access-Notebook)
-        * [SMAP Python Notebooks](https://github.com/nsidc/smap_python_notebooks)
+        * [NSIDC Data Cookbook](https://github.com/nsidc/NSIDC-Data-Cookbook)
+        * [NSIDC Data Tutorials and Workshops Archive](https://github.com/nsidc/NSIDC-Data-Tutorials)
 
 
 ## FAQ
